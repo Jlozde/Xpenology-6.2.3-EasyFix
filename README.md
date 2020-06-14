@@ -1,6 +1,6 @@
 # Xpenology-6.2.3-EasyFix
 
-This batch file will fix face recognition and video transcoding issues.
+This bash script will fix face recognition and video transcoding issues.
 
 # Credit:
 https://xpenology.com/forum/topic/24864-transcoding-without-a-valid-serial-number/
