@@ -2,7 +2,7 @@
 
 This bash script will fix face recognition and video transcoding issues.
 
-Use it with caution and make sure you are back up everthing. I am not responsible from any damage. 
+Use it with caution and make sure you are backed up everthing. I am not responsible from any damage. 
 
 # Credit:
 https://xpenology.com/forum/topic/24864-transcoding-without-a-valid-serial-number/
