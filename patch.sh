@@ -274,7 +274,7 @@ if [["$conf_library_patched"]]; then
     echo "Backing up libraries..." 
     cp -p "/var/packages/SynologyMoments/target/usr/lib/libsynophoto-plugin-detection.so" "/"$conf_path1"/libsynophoto-plugin-detection_backup.so"
     rm "/var/packages/SynologyMoments/target/usr/lib/libsynophoto-plugin-detection.so"
-    wget -P "/var/packages/SynologyMoments/target/usr/lib/" "https://raw.githubusercontent.com/Jlozde/xpenology-6.2.3-fix/master/libsynophoto-plugin-detection.so"
+    wget -P "/var/packages/SynologyMoments/target/usr/lib/" "https://raw.githubusercontent.com/Jlozde/xpenology-6.2.3-easyfix/master/libsynophoto-plugin-detection.so"
     echo "backed up to:"$backup_path."/libsynophoto-plugin-detection_backup.so"
     conf_library_patched=0
 fi
