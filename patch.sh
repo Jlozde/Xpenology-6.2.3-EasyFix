@@ -9,6 +9,7 @@ conf_path="/usr/syno/etc/codec"
 conf_string='{"success":true,"activated_codec":["hevc_dec","ac3_dec","h264_dec","h264_enc","aac_dec","aac_enc","mpeg4part2_dec","vc1_dec","vc1_enc"],"token":"123456789987654abc"}'
 conf_path1=""
 conf_library_patched=1
+opmode="patchhelp"
 
 #arrays
 declare -A binhash_version_list=(
@@ -17,6 +18,7 @@ declare -A binhash_version_list=(
     ["1473d6ad6ff6e5b8419c6b0bc41006b72fd777dd"]="6.1.2-15132-0_6.1.3-15152-8"
     ["26e42e43b393811c176dac651efc5d61e4569305"]="6.1.4-15217-0_6.2-23739-2"
     ["1d01ee38211f21c67a4311f90315568b3fa530e6"]="6.2.1-23824-0_6.2.3-25426-2"
+    ["1d01ee38211f21c67a4311f90315568b3fa530e6"]="6.2.1-23824-0_6.2.3-25426-3"
 )
 
 declare -A patchhash_binhash_list=(
@@ -45,6 +47,10 @@ declare -a path_list=(
     "/volume1/@appstore/MediaServer/bin/"
     "/volume2/@appstore/MediaServer/bin/"
     "/volume3/@appstore/MediaServer/bin/"    
+    "/volume3/@appstore/MediaServer/bin/"	
+    "/volume1/@appstore/SurveillanceStation/bin/"	
+    "/volume2/@appstore/SurveillanceStation/bin/"	
+    "/volume3/@appstore/SurveillanceStation/bin/"
 )
 
 declare -a versions_list=(
@@ -135,6 +141,8 @@ declare -a versions_list=(
     "6.2.3 25426-0"
     "6.2.3 25426-1"
     "6.2.3 25426-2"
+    "6.2.3 25426-3"
+    "6.2.3 25426-3"
 )
 
 #functions
