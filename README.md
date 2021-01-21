@@ -9,9 +9,10 @@ https://xpenology.com/forum/topic/24864-transcoding-without-a-valid-serial-numbe
 https://xpenology.com/forum/topic/20105-fix-the-problem-of-moments-13x-face-recognition-not-work/
 
 # Usage:
-1. ```wget https://raw.githubusercontent.com/Jlozde/xpenology-6.2.3-easyfix/master/patch.sh```
-2. ```chmod +x patch.sh```
-3. ```./patch.sh```
-4. ```reboot & reindex```
+1. Stop Moments
+2. ```wget https://raw.githubusercontent.com/Jlozde/xpenology-6.2.3-easyfix/master/patch.sh```
+3. ```chmod +x patch.sh```
+4. ```./patch.sh```
+5. ```reboot & reindex```
 
 ### Enjoy
